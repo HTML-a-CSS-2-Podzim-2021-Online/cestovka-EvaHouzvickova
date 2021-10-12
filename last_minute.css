@@ -1,6 +1,6 @@
 /*mobilni verze*/
-.zajezdy__1 {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(podklady/palmy.jpg);
+.last-minute__1 {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(podklady/lodicka.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -8,8 +8,8 @@
     width: auto;
 }
 
-.zajezdy__2 {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(podklady/jezero.jpg);
+.last-minute__2 {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(podklady/podkova.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -17,8 +17,8 @@
     width: auto;
 }
 
-.zajezdy__3 {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(podklady/nakole.jpg);
+.last-minute__3 {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(podklady/zatoka.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -26,21 +26,22 @@
     width: auto;
 }
 
-.zajezdy__1,
-.zajezdy__2,
-.zajezdy__3 {
+.last-minute__1,
+.last-minute__2,
+.last-minute__3 {
     position: relative;
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
 }
 
-.zajezdy__1 h1 {
+.last-minute h1 {
     position: absolute;
-    bottom: 2rem;
+    top: 3rem;
     left: 1rem;
+    width: 350px;
 }
 
-.zajezdy__popis {
+.last-minute__popis {
     position: absolute;
     bottom: 0.5rem;
     left:1rem;
