@@ -10,3 +10,30 @@
 body {
     font-family: Montserrat, sans-serif;
 }
+
+h1,
+h3 {
+    color: #FFF;
+}
+
+.zajezdy__popis, 
+.last-minute__popis {
+    color: rgba(255, 255, 255, 0.787);
+    font-size: 0.9rem;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+.cena {
+    font-size: 1rem;
+    color: #FFF;
+    padding: 0.5rem;
+    background-color: var(--hlavni-barva);
+    width: 95px;
+}

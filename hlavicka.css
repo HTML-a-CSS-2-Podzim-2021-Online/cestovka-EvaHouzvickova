@@ -1,9 +1,18 @@
 
+/*mobilni verze*/
+.hlavicka {
+    text-align: center;
+}
+
 .hlavicka__navigace a {
     text-decoration: none;
     font-weight: 600;
     color: var(--hlavni-barva);
     padding:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(1/3 * 100%);
 }
 
 nav a:hover,
@@ -19,6 +28,8 @@ nav a:focus {
 }
 
 .hlavicka__logo {
-    text-align: center;
     margin: 1rem;
+    width: 180px;
+    height: auto;
 }
+/*mobilni verze*/

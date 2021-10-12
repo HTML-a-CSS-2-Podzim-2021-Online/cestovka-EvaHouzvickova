@@ -1,0 +1,59 @@
+
+.zajezdy__1 {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(podklady/palmy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 220px;
+    width: auto;
+}
+
+.zajezdy__2 {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(podklady/jezero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 150px;
+    width: auto;
+}
+
+.zajezdy__3 {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(podklady/nakole.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 150px;
+    width: auto;
+}
+
+.zajezdy__1,
+.zajezdy__2,
+.zajezdy__3 {
+    position: relative;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.zajezdy__1 h1 {
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+}
+
+.zajezdy__popis {
+    position: absolute;
+    bottom: 0.5rem;
+    left:1rem;
+}
+
+.cena {
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+}
+
+h3 {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
