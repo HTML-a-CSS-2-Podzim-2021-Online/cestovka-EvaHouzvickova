@@ -1,38 +1,5 @@
-*, ::after,::before {
-    box-sizing: border-box;
-}
-
-:root {
-    --hlavni-barva: #F03000;
-}
-
-body {
-    font-family: Montserrat, sans-serif;
-    max-width: 480px;
-}
-
-.hlavicka__navigace a {
-    text-decoration: none;
-    font-weight: 600;
-    color: var(--hlavni-barva);
-    padding:1rem;
-}
-
-nav a:hover {
-    color: #FFFF;
-    background-color: var(--hlavni-barva);
-}
-
-.hlavicka__navigace {
-    display: flex;
-    justify-content: space-around;
-}
-
-.hlavicka__logo {
-    text-align: center;
-    margin: 1rem;
-}
-
+@import 'hlavicka.css';
+@import 'spolecne.css';
 
 
 

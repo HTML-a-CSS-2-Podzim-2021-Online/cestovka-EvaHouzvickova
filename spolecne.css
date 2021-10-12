@@ -1,0 +1,12 @@
+
+*, ::after,::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --hlavni-barva: #F03000;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
