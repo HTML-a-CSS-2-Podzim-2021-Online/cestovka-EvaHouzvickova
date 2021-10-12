@@ -4,12 +4,19 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 	<title>Cestovka</title>
 </head>
 
 <body>
 	<header class="hlavicka">
-		<img class="hlavicka__logo" src="podklady/logo.svg" alt="Cestovka">
+		<div class="hlavicka__logo">
+			<svg xmlns="http://www.w3.org/2000/svg" width="235.312" height="30" viewBox="0 0 235.312 30"><defs><style>.a{fill:#f03000;}</style></defs><path class="a" d="M15.812,6.614a7.928,7.928,0,0,0-7.946,8.239,7.989,7.989,0,0,0,7.991,8.328,10.867,10.867,0,0,0,7.227-3.427l4.439,4.8A17.535,17.535,0,0,1,15.342,30C6.57,30,0,23.554,0,14.933,0,6.481,6.739.124,15.688.124A16.869,16.869,0,0,1,27.523,5.149l-4.439,5.327a9.953,9.953,0,0,0-7.271-3.862ZM53.989.337V6.446H38.505v5.478H52.48v6.108H38.505v5.522h15.9v6.108H30.852V.337ZM69.864,6.215c-1.838,0-3.054.675-3.054,2.007,0,4.856,15.439,2.1,15.439,12.643,0,5.984-5.274,9.038-11.8,9.038a22.054,22.054,0,0,1-13.513-4.688L59.9,19.231c3.019,2.592,7.573,4.439,10.654,4.439,2.264,0,3.685-.843,3.685-2.388C74.241,16.3,58.8,19.31,58.8,8.941,58.775,3.471,63.418,0,70.494,0A22.524,22.524,0,0,1,82.2,3.3L79.319,9.376C76.221,7.618,72.288,6.215,69.864,6.215ZM108.751.337V6.65h-8.79V29.663H92.335V6.65H83.6V.337Zm31.474,14.64c0,8.577-6.774,15.022-15.857,15.022s-15.857-6.446-15.857-15.022S115.286.124,124.368.124s15.857,6.357,15.857,14.854Zm-23.847.044a8.275,8.275,0,0,0,8.07,8.452c4.439,0,7.911-3.685,7.911-8.452a8.068,8.068,0,0,0-7.911-8.372,8.177,8.177,0,0,0-8.07,8.372ZM148.952.337l7.307,21.21L163.637.337H171.5l-11.462,29.3h-7.991L140.7.337Zm44.365,29.325L185.7,18.325l-3.764,4.191v7.1h-7.653V.337h7.653v12.3l11-12.3h8.878L190.929,12.43l11.542,17.2Zm31.856-5.185H212.495l-2.078,5.185h-7.866l12.6-29.3h7.866l12.3,29.3h-8.159Zm-2.255-5.833L218.9,8.159l-4.1,10.485Z"/></svg>
+		</div>
 		<nav class="hlavicka__navigace">
 			<a href="#">Last minute</a>
 			<a href="#">Destinace</a>
@@ -18,103 +25,97 @@
 	</header>
 
 	<section class="zajezdy">
-		<p class="cena">17 600 Kč</p>
-		<figure class="zajezdy__1">
-			<img src="podklady/palmy.jpg" width="370" height="180" alt="Pohododa pod palmami">
-			<figcaption>Pohoda pod palmami</figcaption>
-			<figcaption>Nejlepší dovolená pro nejvíc nejlínější lidi na světě</figcaption>
-		</figure>
+		<article class="zajezdy__1">
+			<h1>Pohoda pod palmami</h1>
+			<p>Nejlepší dovolená pro nejvíc nejlínější lidi na světě</p>
+			<p>17 600 Kč</p>
+		</article>
 
-		<p class="cena">8 490 Kč</p>
-		<figure class="zajezdy__2">
-			<img src="podklady/jezero.jpg" width="370" height="180" alt="Klid u jezera">
-			<figcaption>Klid u jezera</figcaption>
-		</figure>
+		<article class="zajezdy__2">
+			<h3>Klid u jezera</h3>
+			<p>17 600 Kč</p>
+		</article>
 
-		<p class="cena">4 990 Kč</p>
-		<figure class="zajezdy__3">
-			<img src="podklady/nakole.jpg" width="370" height="180" alt="Výlet na kole">
-			<figcaption>Výlet na kole</figcaption>
-		</figure>
+		<article class="zajezdy__3">
+			<h3>Výlet na kole</h3>
+			<p>4 990 Kč</p>
+		</article>
 	</section>
 
 	<section class="cestovka-popis">
 		<article class="cestovka-popis__sluzby">
 			<img src="podklady/map.svg" alt="Podpora na místě">
-			<h2>Podpora na místě</h2>
+			<h3>Podpora na místě</h3>
 			<p>V cílové destinaci jsou k dispozici naši delegáti, kteří vám vždy rádi poradí.</p>
 		</article>
 
 		<article class="cestovka-popis__sluzby">
 			<img src="podklady/plane.svg" alt="Služby na letišti">
-			<h2>Služby na letišti</h2>
+			<h3>Služby na letišti</h3>
 			<p>Při odletu tam i zpět za vás odbavíme vaše zavadla. Na letišti nebudete čekat.</p>
 		</article>
 
 		<article class="cestovka-popis__sluzby">
 			<img src="podklady/globe.svg" alt="	Do celého světa">
-			<h2>Do celého světa</h2>
+			<h3>Do celého světa</h3>
 			<p>Nabízíme pravidelné slevy na vybraných destinací na všech kontinentech.</p>
 		</article>
 
 		<article class="cestovka-popis__sluzby">
 			<img src="podklady/shield.svg" alt="Vaše bezpečí">
-			<h2>Vaše bezpečí</h2>
+			<h3>Vaše bezpečí</h3>
 			<p>Není-li v cílové destinaci v čase odletu bezpečno, vrátíme vám peníze.</p>
 		</article>
 	</section>
 
 	<section class="last-minute">
-	<h1>Last minute zájezdy</h1>
+		<h2>Last minute zájezdy</h2>
 
-	<p class="cena">18 500 Kč</p>
-		<figure class="last-minute__1">
-			<img src="podklady/podkova.jpg" width="370" height="180" alt="Grand Canyon">
-			<figcaption>Grand Canyon</figcaption>
-		</figure>
+		<article class="last-minute__1">
+			<h1>Romantika u horského jezera</h1>
+			<p>Dechberoucí výhledy na horské štíty a zrcadlovou hladinu jezera</p>
+			<p>15 900 Kč</p>
+		</article>
 
-	<p class="cena">8 900 Kč</p>
-		<figure class="last-minute__2">
-			<img src="podklady/zatoka.jpg" width="370" height="180" alt="Pěšky po Kanárských ostrovech">
-			<figcaption>Pěšky po Kanárských ostrovech</figcaption>
-		</figure>
+		<article class="last-minute__2">
+			<h3>Grand Canyon</h3>
+			<p>18 500 Kč</p>
+		</article>
 
-		<p class="cena">15 900 Kč</p>
-		<figure class="last-minute__3">
-			<img src="podklady/jezero.jpg" width="370" height="180" alt="Romantika u horského jezera">
-			<figcaption>Romantika u horského jezera</figcaption>
-		</figure>
+		<article class="last-minute__3">
+			<h3>Pěšky po Kanárských ostrovech</h3>
+			<p>8 900 Kč</p>
+		</article>
 	</section>
 
 	<section class="novinky">
-	<h1>Novinky</h1>
+		<h2>Novinky</h2>
 
-	<article class="novinky__odstavec">
-	<p>15. 8. 2020</p>
-	<h2>Magický Zanodstavec
-	<p>Zanzibar, při vyslovení jména tohoto kouzelného ostrova, se vybaví vůně exotických koření, příznivé klima, teplé moře,
-	exotická flóra i fauna.</p> 
-	</article>
+		<article class="novinky__odstavec">
+			<p>15. 8. 2020</p>
+			<h3>Magický Zanzibar</h3>
+			<p>Zanzibar, při vyslovení jména tohoto kouzelného ostrova, se vybaví vůně exotických koření, příznivé klima, teplé moře,
+			exotická flóra i fauna.</p> 
+		</article>
 
-	<article class="novinky__odstavec">
-	<p>31. 9. 2020</p>
-	<h2>Návrat českých občanů ze zahraničí</h2>
-	<p>Všichni občané ČR vracející se ze zahraničí zpět se musí řídit podmínkami uvedenými v platném Ochranném opatření
-	Ministerstva zdravotnictví ČR.</p>
-	</article>
+		<article class="novinky__odstavec">
+			<p>31. 9. 2020</p>
+			<h3>Návrat českých občanů ze zahraničí</h3>
+			<p>Všichni občané ČR vracející se ze zahraničí zpět se musí řídit podmínkami uvedenými v platném Ochranném opatření
+			Ministerstva zdravotnictví ČR.</p>
+		</article>
 
-	<article class="novinky__odstavec">
-	<p>6. 10. 2020</p>
-	<h2>Na Kubu s PCR testem</h2>
-	<p>Při vstupu do země se buď musíte prokázat negativním PCR testem na Covid-19, který byl proveden max. 72 hodin před
-	příletem do destinace.</p> 
+		<article class="novinky__odstavec">
+			<p>6. 10. 2020</p>
+			<h3>Na Kubu s PCR testem</h3>
+			<p>Při vstupu do země se buď musíte prokázat negativním PCR testem na Covid-19, který byl proveden max. 72 hodin před
+			příletem do destinace.</p> 
 	</article>
 	</section>
 
 	<footer class="paticka">
 	©2021, Czechitas
 	</footer>
-
 </body>
 
 </html>
