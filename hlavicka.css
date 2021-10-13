@@ -34,3 +34,22 @@ nav a:focus {
     height: auto;
 }
 /*mobilni verze*/
+
+/*tablet verze*/
+
+@media screen and (min-width: 520px) {
+    .hlavicka {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .hlavicka__navigace a {
+        width: auto;
+    }
+
+    .hlavicka__logo {
+        width: 200px;
+    }
+}
+
+/*tablet verze*/
