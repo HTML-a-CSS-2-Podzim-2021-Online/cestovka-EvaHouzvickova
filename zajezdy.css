@@ -67,3 +67,30 @@ h3 {
     font-size: 0.9rem;
 }
 /*mobilni verze*/
+
+/*tablet verze*/
+
+@media screen and (min-width: 520px) {
+    .zajezdy {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 350px 170px;
+        gap: 1.3rem;
+    }
+
+    .zajezdy__1 {
+        grid-column: 1/-1;
+    }
+
+    .zajezdy__1,
+    .zajezdy__2,
+    .zajezdy__3 {
+        margin: 0;
+        width: 100%;
+    }
+    
+    .zajezdy__popis {
+        color: rgba(255, 255, 255, 0.863);
+        font-size: 1rem;
+    }
+}

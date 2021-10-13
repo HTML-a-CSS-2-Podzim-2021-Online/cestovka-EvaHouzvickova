@@ -40,15 +40,17 @@ nav a:focus {
 @media screen and (min-width: 520px) {
     .hlavicka {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     .hlavicka__navigace a {
         width: auto;
+        font-size: 1.1rem;
     }
 
     .hlavicka__logo {
         width: 200px;
+        margin-left: 2rem;
     }
 }
 

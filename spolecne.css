@@ -30,6 +30,7 @@ h3 {
 }
 
 .cena {
+    text-align: center;
     font-size: 1rem;
     color: #FFF;
     padding: 0.5rem;
@@ -44,4 +45,20 @@ h3 {
     font-size: 0.8rem;
     padding: 1rem;
     margin-top: 2rem;
+}
+
+@media screen and (min-width: 520px) {
+    h1 {
+        font-size: 1.8rem;
+        color: rgba(255, 255, 255, 0.924);
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .cena {
+        font-size: 1.1rem;
+        width: 99px;
+    }
 }
