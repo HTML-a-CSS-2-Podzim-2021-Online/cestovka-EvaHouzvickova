@@ -1,0 +1,32 @@
+
+/*mobilni verze*/
+.cestovka__sluzby {
+    display: flex;
+    background-color:#eeecec;
+    margin-top: 0.5rem;
+    padding: 1rem;
+}
+
+.cestovka__sluzby--popis {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1.5rem;
+    font-size: 0.9rem;
+}
+
+h4 {
+    margin: 0;
+    color: var(--hlavni-barva);
+    font-weight: 600;
+}
+
+.cestovka__sluzby img {
+    width: 40px;
+    height: auto;
+    margin-top: -2rem;
+}
+
+.cestovka__sluzby--popis p {
+    margin-bottom: 0;
+}
+/*mobilni verze*/
