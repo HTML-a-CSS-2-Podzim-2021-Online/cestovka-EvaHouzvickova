@@ -1,0 +1,27 @@
+
+/*mobilni verze*/
+.novinky__odstavec {
+    background-color:#eeecec;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    font-size: 0.8rem ;
+    font-weight: ;
+}
+
+.novinky h4 {
+    margin-top: 0.5rem;
+    color: var(--hlavni-barva);
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+.novinky p {
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.datum {
+    color:#a9a9a9;
+    margin-top: 0;
+}
+/*mobilni verze*/

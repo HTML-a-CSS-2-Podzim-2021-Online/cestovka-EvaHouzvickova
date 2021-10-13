@@ -4,7 +4,7 @@
     display: flex;
     background-color:#eeecec;
     margin-top: 0.5rem;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .cestovka__sluzby--popis {
@@ -26,7 +26,7 @@ h4 {
     margin-top: -2rem;
 }
 
-.cestovka__sluzby--popis p {
+.novinky__odstavec p {
     margin-bottom: 0;
 }
 /*mobilni verze*/
