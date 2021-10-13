@@ -61,4 +61,9 @@ h3 {
 .zajezdy {
     margin-bottom: 2.5rem;
 }
+
+.zajezdy__popis {
+    color: rgba(255, 255, 255, 0.787);
+    font-size: 0.9rem;
+}
 /*mobilni verze*/

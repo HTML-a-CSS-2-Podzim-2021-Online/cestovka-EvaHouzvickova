@@ -45,6 +45,8 @@
     position: absolute;
     bottom: 0.5rem;
     left:1rem;
+    color: rgba(255, 255, 255, 0.787);
+    font-size: 0.9rem;
 }
 
 .cena {
