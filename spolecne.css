@@ -43,3 +43,12 @@ h4 {
     background-color: var(--hlavni-barva);
     width: 95px;
 }
+
+.paticka {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.65);
+    background-color: #413e3e;
+    font-size: 0.8rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
