@@ -41,7 +41,6 @@
 /*mobilni verze*/
 
 /*tablet verze*/
-
 @media screen and (min-width: 520px) {
     .cestovka {
         display: grid;
@@ -70,3 +69,20 @@
     }
 }
 /*tablet verze*/
+
+/*pc verze*/
+@media screen and (min-width: 980px) {
+    .cestovka {
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    }
+    
+    .cestovka__sluzby img {
+        margin-bottom: 0.8rem;
+    }
+
+    .cestovka__sluzby--popis {
+        font-size: 1rem;
+    }
+}
+/*pc verze*/

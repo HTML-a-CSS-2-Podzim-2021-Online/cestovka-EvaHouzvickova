@@ -113,8 +113,8 @@ h3 {
     }
 
     .zajezdy {
-        grid-template-columns: 650px auto;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 650px 1fr;
+        grid-template-rows: 180px 180px;
     }
 }
 /*pc verze*/
