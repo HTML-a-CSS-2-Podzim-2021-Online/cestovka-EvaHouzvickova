@@ -28,3 +28,17 @@
     margin-bottom: 0;
 }
 /*mobilni verze*/
+
+/*tablet verze*/
+
+@media screen and (min-width: 520px) {
+ .datum, 
+ .novinky h4 {
+     font-size: 1rem;
+ }
+
+ .novinky__odstavec {
+     font-size: 0.9rem;
+ }
+}
+/*tablet verze*/

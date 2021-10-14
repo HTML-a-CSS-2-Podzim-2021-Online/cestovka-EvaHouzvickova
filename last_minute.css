@@ -61,3 +61,38 @@ h3 {
     left: 1rem;
 }
 /*mobilni verze*/
+
+/*tablet verze*/
+
+@media screen and (min-width: 520px) {
+    .last-minute__zajezdy {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 370px 170px;
+        gap: 1.3rem;
+    }
+
+    .last-minute__1 {
+        grid-column: 1/-1;
+    }
+
+    .last-minute__1,
+    .last-minute__2,
+    .last-minute__3 {
+        margin: 0;
+        width: 100%;
+    }
+
+    .last-minute__popis {
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+    }
+
+    .last-minute h1 {
+        position: absolute;
+        top: 15.5rem;
+        left: 1rem;
+        width: 450px;
+    }
+}
+/*tablet verze*/

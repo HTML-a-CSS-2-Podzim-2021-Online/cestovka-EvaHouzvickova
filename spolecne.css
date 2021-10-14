@@ -13,7 +13,7 @@ body {
 
 h1,
 h3 {
-    color: rgba(255, 255, 255, 0.822);
+    color: rgb(255, 255, 255);
 }
 
 h1 {
@@ -40,13 +40,15 @@ h3 {
 
 .paticka {
     text-align: center;
-    color: rgba(255, 255, 255, 0.76);
+    color: rgba(255, 255, 255, 0.863);
     background-color: #3b3838;
     font-size: 0.8rem;
+    font-weight: 500;
     padding: 1rem;
     margin-top: 2rem;
 }
 
+/*tablet verze*/
 @media screen and (min-width: 520px) {
     h1 {
         font-size: 1.8rem;
@@ -65,4 +67,9 @@ h3 {
     h2 {
         font-size: 1.5rem;
     }
+
+    .paticka {
+        font-size: 1rem;
+    }
 }
+/*tablet verze*/

@@ -74,7 +74,7 @@ h3 {
     .zajezdy {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 350px 170px;
+        grid-template-rows: 370px 170px;
         gap: 1.3rem;
     }
 
@@ -90,7 +90,7 @@ h3 {
     }
 
     .zajezdy__popis {
-        color: rgba(255, 255, 255, 0.863);
+        color: rgb(255, 255, 255);
         font-size: 1rem;
     }
 }
