@@ -55,3 +55,15 @@ nav a:focus {
 }
 
 /*tablet verze*/
+
+/*pc verze*/
+@media screen and (min-width: 980px) {
+    .hlavicka__logo {
+        width: 220px;
+    }
+
+    .hlavicka__navigace a {
+        font-size: 1.2rem;
+    }
+}
+/*pc verze*/
