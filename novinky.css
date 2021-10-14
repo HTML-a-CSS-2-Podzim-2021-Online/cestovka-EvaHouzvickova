@@ -23,4 +23,8 @@
     color:#a9a9a9;
     margin-top: 0;
 }
+
+.novinky__odstavec p {
+    margin-bottom: 0;
+}
 /*mobilni verze*/
