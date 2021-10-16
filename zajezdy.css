@@ -66,12 +66,13 @@ h3 {
     .zajezdy {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 370px 170px;
+        grid-template-rows: repeat(3,185px);
         gap: 1.3rem;
     }
 
     .zajezdy__1 {
         grid-column: 1/-1;
+        grid-row: 1/-2;
     }
 
     .zajezdy__1,
@@ -90,24 +91,23 @@ h3 {
 
 /*pc verze*/
 @media screen and (min-width: 980px) {
+    .zajezdy {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(2, 185px);
+    }
     .zajezdy__1 {
         grid-row: 1/-1;
-        grid-column: 1;
+        grid-column: 1/-2;
     }
 
     .zajezdy__2 {
-        grid-column: 2;
+        grid-column: 3;
         grid-row:1;
     }
 
     .zajezdy__3 {
-        grid-column: 2;
+        grid-column: 3;
         grid-row: 2;
-    }
-
-    .zajezdy {
-        grid-template-columns: 650px 1fr;
-        grid-template-rows: 180px 180px;
     }
 }
 /*pc verze*/
