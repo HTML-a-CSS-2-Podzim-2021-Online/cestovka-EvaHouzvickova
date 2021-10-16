@@ -21,22 +21,12 @@
     font-size: 1.1rem;
 }
 
-.cestovka__sluzby--img1,
-.cestovka__sluzby--img3,
-.cestovka__sluzby--img4  {
-    width: 40px;
-    height: auto;
-    margin-top: -2.5rem;
-}
-
-.cestovka__sluzby--img2 {
-    width: 50px;
-    height: auto;
-    margin-top: -2.5rem;
-}
-
 .cestovka__sluzby p {
     margin-bottom: 0;
+}
+
+.cestovka__sluzby--popis1 {
+    margin-left: 2rem;
 }
 /*mobilni verze*/
 
@@ -55,17 +45,12 @@
         text-align: center;
     }
 
-    .cestovka__sluzby img {
-        margin-top: -0.5rem;
-        margin-bottom: 0.5rem;
-    }
-
     .cestovka h4 {
         margin: auto;
     }
 
-    .cestovka__sluzby--img1 {
-        width: 30px;
+    .cestovka__sluzby--popis {
+        margin-left: 0;
     }
 }
 /*tablet verze*/
@@ -79,10 +64,6 @@
     
     .cestovka__sluzby img {
         margin-bottom: 0.8rem;
-    }
-
-    .cestovka__sluzby--popis {
-        font-size: 1rem;
     }
 }
 /*pc verze*/

@@ -30,8 +30,7 @@
 .zajezdy__2,
 .zajezdy__3 {
     position: relative;
-    margin-top: 1.2rem;
-    margin-bottom: 1.2rem;
+    margin: 1.2rem 0;
 }
 
 .zajezdy__1 h1 {
@@ -43,12 +42,6 @@
 .zajezdy__popis {
     position: absolute;
     bottom: 0.5rem;
-    left:1rem;
-}
-
-.cena {
-    position: absolute;
-    top: 0.5rem;
     left: 1rem;
 }
 

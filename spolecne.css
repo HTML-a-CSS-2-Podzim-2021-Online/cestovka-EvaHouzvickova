@@ -38,6 +38,8 @@ h3 {
     padding: 0.5rem;
     background-color: var(--hlavni-barva);
     width: 95px;
+    position: absolute;
+    left: 1rem;
 }
 
 .paticka {
